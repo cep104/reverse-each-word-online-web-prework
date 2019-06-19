@@ -3,6 +3,6 @@ def reverse_each_word(value)
  new_array = array.each do |x|
 x.reverse!
   end
-  new_array
+  new_array.join(" ")
 end
 
